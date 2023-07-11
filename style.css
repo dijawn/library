@@ -55,9 +55,9 @@ h3{
 
 .remove-style{
     grid-row: 5/6;
-    padding: .5rem;
+    padding: .7rem;
     width: 33%;
-    height: 30%;
+    height: 40%;
     align-self: self-end;
     justify-self: self-end;
     margin: 0 .5rem .5rem 0;
@@ -65,8 +65,9 @@ h3{
     background-color: #d4996b;
     color: inherit;
     font-weight: 500;
-    border-radius: 10px;
+    border-radius: 13px;
     line-height: 25%;
+    font-family: Comforta;
 }
 
 
