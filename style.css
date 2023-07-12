@@ -81,7 +81,7 @@ h3{
 
 
 .top{
-    background-image: url(plant-bg.jpg);
+    background-image: url(./plant-bg.jpg);
     background-size: 1200px;
     padding: 6rem;
     display: flex;
