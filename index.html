@@ -22,24 +22,28 @@
         </div>
     </div>
     <div class="modal" id="modal">
-        <span class="close x">&times;</span>
+        <span class="close x">&times;   </span>
         <h4>Enter Plant Details</h4>
-        <form action="#" method="POST">
+        <form action="/" method="GET" autocomplete="off">
             <div class="plant-attribute">
                 <label for="plantName"></label>
-                <input type="text" id="plantName" name="plantName" placeholder="Common Name">
+                <input type="text" id="plantName" name="plantName" placeholder="Common Name" required />
+                <span class="validation-text"> Please Fill in this Field</span>
             </div>
             <div class="plant-attribute">
                 <label for="latinName"></label>
                 <input type="text" id="latinName" name="latinName" placeholder="Scientific Name">
+                <span class="validation-text"> Please Fill in this Field</span>
             </div>
             <div class="plant-attribute">
                 <label for="humidity"></label>
                 <input type="text" id="humidity" name="humidity" placeholder="Humidity Level">
+                <span class="validation-text"> Please Fill in this Field</span>
             </div>
             <div class="plant-attribute">
                <label for="light"></label>
                 <input type="text" id="light" name="light" placeholder="Light Requirements">
+                <span class="validation-text"> Please Fill in this Field</span>
             </div>
             <div class="modal-btns">
                 <button type="button" class="submit btn">Submit</button>
